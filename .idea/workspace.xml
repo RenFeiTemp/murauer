@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf96f3f6-0e10-4375-83f8-7d55701b4689" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/murauer$muti_gan.coverage" NAME="muti_gan Coverage Results" MODIFIED="1550309315340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/my_net" />
+    <SUITE FILE_PATH="coverage/murauer$main.coverage" NAME="main Coverage Results" MODIFIED="1551093441024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/my_net" />
+    <SUITE FILE_PATH="coverage/murauer$main_generate_data_cache.coverage" NAME="main_generate_data_cache Coverage Results" MODIFIED="1549707087757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
+    <SUITE FILE_PATH="coverage/murauer$main_run.coverage" NAME="main_run Coverage Results" MODIFIED="1549790750549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/config/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resnet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/my_net/resnet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="90" column="23" lean-forward="true" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#2776#4931#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hapetrainer_map_preview_adversarial.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/trainer/hapetrainer_map_preview_adversarial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2240">
+              <caret line="228" column="12" selection-start-line="228" selection-start-column="12" selection-end-line="228" selection-end-column="28" />
+              <folding>
+                <element signature="e#1238#2152#0" />
+                <element signature="e#3060#6889#0" />
+                <element signature="e#6987#7442#0" />
+                <element signature="e#7524#7570#0" />
+                <element signature="e#7645#7700#0" />
+                <element signature="e#23424#26078#0" />
+                <element signature="e#26160#27963#0" />
+                <element signature="e#28118#30335#0" />
+                <element signature="e#30396#30521#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/main_run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1300">
+              <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+              <folding>
+                <element signature="e#2771#3127#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resnet_mur.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/my_net/resnet_mur.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="526" column="54" selection-start-line="526" selection-start-column="54" selection-end-line="526" selection-end-column="54" />
+              <folding>
+                <element signature="e#1503#2329#0" />
+                <element signature="e#2365#3716#0" />
+                <element signature="e#3754#4457#0" />
+                <element signature="e#4526#5917#0" />
+                <element signature="e#5962#8546#0" />
+                <element signature="e#8590#12414#0" />
+                <element signature="e#12450#15647#0" />
+                <element signature="e#15679#17834#0" />
+                <element signature="e#15699#16241#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/my_net/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5800">
+              <caret line="293" selection-start-line="293" selection-end-line="293" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#16163#16808#0" />
+                <element signature="e#17889#18478#0" />
+                <element signature="e#18036#18618#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>anno</find>
+      <find>loadSingleSampleNyu</find>
+      <find>rotateImageAndGt</find>
+      <find>HandDetectorICG</find>
+      <find>real_synth_sample_list</find>
+      <find>numSamples</find>
+      <find>get_evaluator</find>
+      <find>args_data</find>
+      <find>unlabeledSampleIds</find>
+      <find>NyuHandPoseDataset</find>
+      <find>needed_cam_ids_train_real</find>
+      <find>evaluate_model</find>
+      <find>targets_s</find>
+      <find>crop_size_3d_tuple</find>
+      <find>points3DToImg_NYU</find>
+      <find>gt3Dcrop</find>
+      <find>gpu_id</find>
+      <find>do_test_on_synth</find>
+      <find>points3DTo</find>
+      <find>pointsImgTo3D</find>
+      <find>_make_layer</find>
+      <find>NYU</find>
+      <find>num_samples_used_for_train</find>
+      <find>do_train</find>
+      <find>disc</find>
+      <find>opt</find>
+      <find>scheduler</find>
+      <find>scheduler_type</find>
+      <find>modi</find>
+      <find>train</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/source/main_generate_data_cache.py" />
+        <option value="$PROJECT_DIR$/source/my_net/module_2d.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp57944/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/basic_Gadam0.1_stepbatch32/train.log" />
+        <option value="$PROJECT_DIR$/source/config/config.py" />
+        <option value="$PROJECT_DIR$/source/data/NyuHandPoseDataset.py" />
+        <option value="$PROJECT_DIR$/source/config/config_data_nyu.py" />
+        <option value="$PROJECT_DIR$/source/eval/handpose_evaluation.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp36354/data/users/pfren/pycharm/deeppiror/src/model/icvl/gan/EB_point_heatmap_nofinetune_Glr0.3_Dlr1e-3/train.log" />
+        <option value="$PROJECT_DIR$/source/my_net/muti_gan.py" />
+        <option value="$PROJECT_DIR$/source/my_net/resnet_mur.py" />
+        <option value="$PROJECT_DIR$/source/my_net/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="359" />
+    <option name="y" value="40" />
+    <option name="width" value="862" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="murauer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="murauer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="murauer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="murauer" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="murauer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="murauer" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="murauer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="murauer" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="murauer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="murauer" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="my_net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="murauer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="murauer" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="nets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="murauer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="murauer" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="trainer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="murauer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="murauer" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="murauer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/my_net" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/my_net/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main_generate_data_cache" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="murauer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/main_generate_data_cache.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main_run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="murauer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/main_run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="muti_gan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="murauer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/my_net" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/my_net/muti_gan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.muti_gan" />
+      <item itemvalue="Python.main_generate_data_cache" />
+      <item itemvalue="Python.main_run" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.muti_gan" />
+        <item itemvalue="Python.main_run" />
+        <item itemvalue="Python.main_generate_data_cache" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf96f3f6-0e10-4375-83f8-7d55701b4689" name="Default" comment="" />
+      <created>1549698534714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549698534714</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32655826" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50064266" side_tool="true" weight="0.4200542" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="7" weight="0.3292683" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3292683" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29674795" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21465296" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993573" weight="0.5433604" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="right" id="Remote Host" order="0" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12789203" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.39972898" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="bottom" id="File Transfer" order="2" weight="0.3292683" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source/trainer/hapetrainer_map_preview_adversarial.py</url>
+          <line>78</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source/nets/resnet.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="args" />
+        <watch expression="(joint3d -  center.reshape(center.shape[0], 1, 3)) / (cube_size/2).reshape(-1,1,3)" language="Python" />
+        <watch expression=" (joint3d -  center.reshape(center.shape[0], 1, 3))" />
+        <watch expression="cube_size" language="Python" />
+        <watch expression="joint2d[:,:,0:2]" language="Python" />
+        <watch expression="targets" />
+        <watch expression="center" />
+        <watch expression="joint3d * cube_size.reshape(-1,1,3) /2 + center.reshape(center.shape[0], 1, center.shape[1])" language="Python" />
+        <watch expression="(joint2d + 1)*64" language="Python" />
+        <watch expression="joint2d" />
+        <watch expression="M" language="Python" />
+        <watch expression="joint3d" />
+        <watch expression="joint2d.shape" language="Python" />
+        <watch expression="joint2d" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>joint2d[:,:,0:2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>joint2d.squeeze().shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>joint2d</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>joint2d.squeeze()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>joint2d.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>joint2d[:,:,2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>joint2d[:,:,2] = joint3d[:,:,2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>joint3d[:,:,2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>joint3d.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>M</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp12701/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/uvd_basic_Gsgd0.1_stepbatch128/img/669.png" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp13349/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/uvd_basic_Gsgd0.1_stepbatch128/img/636.png" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp21393/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/basic_Gsgd0.1_stepbatch32/results_joint_pos_estimated_xyz.txt" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp39382/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/uvd_basic_Gsgd0.1_stepbatch128/img/0.png" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp29132/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/basic_Gsgd0.1_stepbatch32/results_joint_pos_estimated_uvd.txt" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp40718/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/uvd_basic_Gsgd0.1_stepbatch128/img/3.png" />
+    <entry file="file://$PROJECT_DIR$/source/trainer/supertrainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="46" column="64" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp39359/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/uvd_basic_Gsgd0.1_stepbatch128/img/1.png" />
+    <entry file="file://$PROJECT_DIR$/source/util/transformations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/detector/handdetector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4380">
+          <caret line="221" column="39" selection-start-line="221" selection-start-column="34" selection-end-line="221" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp39749/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/basic_Gsgd0.1_stepbatch128/results.txt" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp24298/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/uvd_basic_Gsgd0.1_stepbatch128/img/768.png" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp24619/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/uvd_basic_Gsgd0.1_stepbatch128/img/765.png" />
+    <entry file="file://$PROJECT_DIR$/source/nets/netfactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/remote_sources/-1463176468/-1479272626/torch/utils/data/sampler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/nets/resnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="194" column="16" lean-forward="true" selection-end-line="379" />
+          <folding>
+            <element signature="e#1506#2332#0" />
+            <element signature="e#2368#3722#0" />
+            <element signature="e#3760#4475#0" />
+            <element signature="e#4551#6005#0" />
+            <element signature="e#6066#8714#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/data/basetypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1840">
+          <caret line="93" column="17" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp34609/data/users/pfren/pycharm/deeppiror/src/model/nyu/resnet18_renloader_xyzL1loss_sgd0.3lr/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="153" column="38" lean-forward="true" selection-start-line="153" selection-start-column="38" selection-end-line="153" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp35097/data/users/pfren/pycharm/deeppiror/src/model/nyu/resnet18_renloader_uvdL1loss_sgd0.3lr/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2567" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp23782/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/uvd_basic_Gsgd0.1_stepbatch128/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp27641/data/users/pfren/pycharm/deeppiror/src/model/nyu/gan/point_seg_point_heatmap_EB_Gsgd0.1_Dsgd0.001_stepbatch32/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="77" lean-forward="true" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/remote_sources/-1463176468/-1479272626/torch/optim/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/data/loaderfactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-602">
+          <caret line="369" column="31" selection-start-line="369" selection-start-column="8" selection-end-line="369" selection-end-column="31" />
+          <folding>
+            <element signature="e#5607#12852#0" />
+            <element signature="e#13110#17045#0" />
+            <element signature="e#17210#17909#0" />
+            <element signature="e#22992#26765#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/data/NyuHandPoseDataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="1129" column="31" selection-start-line="1129" selection-start-column="31" selection-end-line="1129" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/trainer/hapetrainer_map_preview_adversarial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2240">
+          <caret line="228" column="12" selection-start-line="228" selection-start-column="12" selection-end-line="228" selection-end-column="28" />
+          <folding>
+            <element signature="e#1238#2152#0" />
+            <element signature="e#3060#6889#0" />
+            <element signature="e#6987#7442#0" />
+            <element signature="e#7524#7570#0" />
+            <element signature="e#7645#7700#0" />
+            <element signature="e#23424#26078#0" />
+            <element signature="e#26160#27963#0" />
+            <element signature="e#28118#30335#0" />
+            <element signature="e#30396#30521#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp17652/data/users/pfren/pycharm/deeppiror/src/model/nyu/gan/point_seg_point_heatmap_EB_Gsgd0.1_Dsgd0.001_stepbatch32/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp13443/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/resnet_mur_Gadam0.3_warm-upbatch64/train.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp33349/data/users/pfren/pycharm/deeppiror/src/model/nyu/gan/ge_EB_point_heatmap_nofinetune_Glr0.3_Dlr1e-3/train.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp34668/data/users/pfren/pycharm/deeppiror/src/model/icvl/gan/point_plus_point_joint_RaLS_Gsgd0.1_Dsgd0.001_stepbatch32/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="64" column="77" lean-forward="true" selection-start-line="64" selection-start-column="77" selection-end-line="64" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp35411/data/users/pfren/pycharm/deeppiror/src/model/icvl/point_two_stage_Gadam0.001_stepbatch32/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp36378/data/users/pfren/pycharm/deeppiror/src/model/icvl/NULL_point_heatmap_EB_Glr0.01_Dlr0.001_stepbatch32/train.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp36354/data/users/pfren/pycharm/deeppiror/src/model/icvl/gan/EB_point_heatmap_nofinetune_Glr0.3_Dlr1e-3/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-566" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp37314/data/users/pfren/pycharm/deeppiror/src/model/icvl/gan/ge_EB_point_heatmap_nofinetune_Glr0.3_Dlr1e-3/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp37498/data/users/pfren/pycharm/deeppiror/src/model/icvl/gan/SA_heatmap_hinge_Glr0.1_Dlr0.0004_step/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2886" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp37226/data/users/pfren/pycharm/deeppiror/src/model/icvl/gan/office_EB_point_heatmap_nofinetune_Glr0.3_Dlr1e-3/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="89" column="59" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp38242/data/users/pfren/pycharm/deeppiror/src/model/icvl/gan/EB_reg_lr0.3/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-466" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp38266/data/users/pfren/pycharm/deeppiror/src/model/icvl/gan/EB_point_reg/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/eval/handpose_evaluation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/config/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/config/config_data_nyu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#707#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp28490/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/resnet_mur_Gsgd0.3_stepbatch128/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/my_net/module_2d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="553" lean-forward="true" selection-start-line="553" selection-end-line="553" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#17354#17936#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/remote_sources/-1463176468/-1479272626/torch/serialization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="364" selection-start-line="364" selection-end-line="364" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/main_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+          <folding>
+            <element signature="e#2771#3127#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/my_net/muti_gan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="422" column="22" lean-forward="true" selection-start-line="422" selection-start-column="22" selection-end-line="422" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/my_net/resnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="90" column="23" lean-forward="true" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#2776#4931#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/my_net/resnet_mur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="526" column="54" selection-start-line="526" selection-start-column="54" selection-end-line="526" selection-end-column="54" />
+          <folding>
+            <element signature="e#1503#2329#0" />
+            <element signature="e#2365#3716#0" />
+            <element signature="e#3754#4457#0" />
+            <element signature="e#4526#5917#0" />
+            <element signature="e#5962#8546#0" />
+            <element signature="e#8590#12414#0" />
+            <element signature="e#12450#15647#0" />
+            <element signature="e#15679#17834#0" />
+            <element signature="e#15699#16241#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp34192/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/uvd_basic_Gsgd0.3_stepbatch128/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-947" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp35932/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/resnet_mur_Gsgd0.3_stepbatch128/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1635" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp35047/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/resnet_mur_Gsgd0.3_stepbatch128/results.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/my_net/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5800">
+          <caret line="293" selection-start-line="293" selection-end-line="293" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#16163#16808#0" />
+            <element signature="e#17889#18478#0" />
+            <element signature="e#18036#18618#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
