@@ -139,21 +139,6 @@ class Trainer(object):
                                    camIdsSynth=[],
                                    cropSize3D=args_data.crop_size_3d_tuple,
                                    args_data=args_data)
-                # self.testData = NyuHandPoseMultiViewDataset(args_data.nyu_data_basepath, train=False,
-                #                         cropSize=args_data.in_crop_size,
-                #                         doJitterCom=args_data.do_jitter_com_test,
-                #                         sigmaCom=args_data.sigma_com,
-                #                         doAddWhiteNoise=args_data.do_add_white_noise_test,
-                #                         sigmaNoise=args_data.sigma_noise,
-                #                         transform=transforms.ToTensor(),
-                #                         useCache=args_data.use_pickled_cache,
-                #                         cacheDir=args_data.nyu_data_basepath_pickled,
-                #                         annoType=args_data.anno_type,
-                #                         neededCamIdsReal=args_data.needed_cam_ids_test,
-                #                         neededCamIdsSynth=[],
-                #                         randomSeed=args_data.seed,
-                #                         cropSize3D=args_data.crop_size_3d_tuple,
-                #                         args_data=args_data)
             self.trainLoader = DataLoader(self.trainData, batch_size=self.batch_size, shuffle=True, num_workers=8)
             self.testLoader = DataLoader(self.testData, batch_size=self.batch_size, shuffle=False, num_workers=8)
 
@@ -174,21 +159,7 @@ class Trainer(object):
                                    camIdsSynth=[],
                                    cropSize3D=args_data.crop_size_3d_tuple,
                                    args_data=args_data)
-                # self.testData = NyuHandPoseMultiViewDataset(args_data.nyu_data_basepath, train=False,
-                #                         cropSize=args_data.in_crop_size,
-                #                         doJitterCom=args_data.do_jitter_com_test,
-                #                         sigmaCom=args_data.sigma_com,
-                #                         doAddWhiteNoise=args_data.do_add_white_noise_test,
-                #                         sigmaNoise=args_data.sigma_noise,
-                #                         transform=transforms.ToTensor(),
-                #                         useCache=args_data.use_pickled_cache,
-                #                         cacheDir=args_data.nyu_data_basepath_pickled,
-                #                         annoType=args_data.anno_type,
-                #                         neededCamIdsReal=args_data.needed_cam_ids_test,
-                #                         neededCamIdsSynth=[],
-                #                         randomSeed=args_data.seed,
-                #                         cropSize3D=args_data.crop_size_3d_tuple,
-                #                         args_data=args_data)
+
             self.testLoader = DataLoader(self.testData, batch_size=self.batch_size, shuffle=False, num_workers=8)
 
         if self.G_opt_type == 'sgd':
@@ -212,8 +183,6 @@ class Trainer(object):
         self.loss_list_name = []
         self.loss_list = []
         self.error_list = []
-        self.gan_list = []
-        self.gan_list_name = []
 
     def train(self):
         nTrain = len(self.trainLoader.dataset)
@@ -224,25 +193,18 @@ class Trainer(object):
 
         criterion = Modified_SmoothL1Loss().cuda()
         self.G.train()
-        self.error_joint_list = []
-        self.error_mean_list = []
         for batch_idx, data in enumerate(self.trainLoader):
             self.loss_list = []
             self.loss_list_name = []
             self.error_list = []
-            self.gan_list = []
-            self.gan_list_name = []
 
             num = num + 1
 
             img, joint3D, M, center, cube = data
-            joint2D = self.xyz2uvd(joint3D.numpy(), center.numpy(), M.numpy(), cube.numpy(), self.trainLoader)
-            joint2D = torch.from_numpy(joint2D).float().cuda()
             img, joint3D = img.cuda(), joint3D.cuda()
 
-
             output, feature = self.G(img)
-            output = output.view_as(joint2D)
+            output = output.view_as(joint3D)
             loss_pos = criterion(output, joint3D)
             error = self.xyz2error(output.detach().cpu().numpy(),joint3D.cpu().numpy(), center.numpy(), cube.numpy())
             self.loss_list_name.append('joint_xyz')
@@ -280,15 +242,10 @@ class Trainer(object):
         self.G.eval()
         error_sum = 0.0
         num = 0
-        self.error_joint_list =[]
-        self.error_mean_list = []
         for batch_idx, data in enumerate(self.testLoader):
-
             num = num + 1
-
             img, joint3D, M, center, cube = data
             img, joint3D = img.cuda(), joint3D.cuda()
-            batch_size = img.size(0)
             output, feature = self.G(img)
             output = output.view_as(joint3D)
             error = self.xyz2error(output.detach().cpu().numpy(),joint3D.cpu().numpy(), center.numpy(), cube.numpy())
@@ -307,25 +264,9 @@ class Trainer(object):
 
             temp = (output - joint_xyz_label) * (output - joint_xyz_label)
             error = np.sqrt(np.sum(temp, 2))
-            self.error_joint_list.append(error)
-            self.error_mean_list.append(np.mean(error, axis=1))
             error = np.mean(error)
 
         return error
-
-    def xyz2uvd(self, joint, center, M, cube_size, loader):
-        joint3d = joint.copy()
-        targets = loader.dataset.denormalize_joint_pos(joint3d, cube_size)
-        targets = targets + center.reshape(center.shape[0], 1, center.shape[1])
-        joint2d = loader.dataset.points3DToImg(targets.reshape(-1, 3))
-        joint2d = joint2d.reshape(-1,self.joint_num,3)
-        joint2d[:,:,2] = 1
-        joint2d = np.matmul(np.tile(M.reshape(-1,1,3,3),(1,self.joint_num,1,1)),joint2d.reshape(-1,self.joint_num,3,1)).squeeze()
-        joint2d[:,:,0:2] = joint2d[:, :, 0:2] / (128.0 / 2) - 1
-        joint2d[:,:,2] = joint3d[:, :, 2]
-        return joint2d
-
-
 
 
 class Modified_SmoothL1Loss(torch.nn.Module):
@@ -353,18 +294,17 @@ class Modified_SmoothL1Loss(torch.nn.Module):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--phase', type=str, default='t'
-                                                     'rain')
+    parser.add_argument('--phase', type=str, default='train')
     parser.add_argument('--root_dir', type=str, default='/data/users/pfren/data/dataset/hand')
 
-    parser.add_argument('--load_epoch', default=1, type=int)
-    parser.add_argument('--gpu_id', type=int, default=3)
-    parser.add_argument('--batch_size', type=int, default=64)
+    parser.add_argument('--load_epoch', default=0, type=int)
+    parser.add_argument('--gpu_id', type=int, default=0)
+    parser.add_argument('--batch_size', type=int, default=128)
     parser.add_argument('--epoch_max', type=int, default=80)
-    parser.add_argument('--G_lr', type=float, default=3.3e-4)
+    parser.add_argument('--G_lr', type=float, default=0.3)
     parser.add_argument('--G_step_size', type=int, default=20)
-    parser.add_argument('--G_opt_type', type=str, default='adam', choices=('sgd', 'adam', 'rmsprop'))
-    parser.add_argument('--scheduler_type', type=str, default='warm-up', choices=('SGDR', 'step','warm-up'))
+    parser.add_argument('--G_opt_type', type=str, default='sgd', choices=('sgd', 'adam', 'rmsprop'))
+    parser.add_argument('--scheduler_type', type=str, default='step', choices=('SGDR', 'step','warm-up'))
 
     parser.add_argument('--input_size', default=128, type=int)
     parser.add_argument('--dataset', default='nyu', type=str, choices=['nyu', 'icvl', 'msra','itop'])
@@ -373,7 +313,7 @@ if __name__ == '__main__':
     parser.add_argument('--joint_num', default=14, type=int)  # nyu 14 icvl 16 msra 21 itop 15
     parser.add_argument('--model_para', default=47, type=int)  # nyu 69/47 icvl 51 msra 62
 
-    parser.add_argument('--model_save', default='resnet_mur_Gsgd0.3_stepbatch128', type=str)#'point_plus_fintune_uvd2xyz_Glr0.1_Dlr1e-3/P0
+    parser.add_argument('--model_save', default='', type=str)
     parser.add_argument('--G_type', default='basic', type=str)
 
     args_my = parser.parse_args()
@@ -399,17 +339,13 @@ if __name__ == '__main__':
         if trainer.scheduler_type == 'step':
             if trainer.G_opt_type == 'sgd' or trainer.G_opt_type == 'adam':
                 trainer.G_scheduler.step(epoch - 1)
-            if trainer.D_opt_type == 'sgd'or trainer.D_opt_type == 'adam':
-                trainer.D_scheduler.step(epoch - 1)
         elif trainer.scheduler_type == 'SGDR' and epoch == epoch_update:
             print('Reset scheduler')
             iter_num_SGDR = iter_num_SGDR * 2
             update_size = update_size * 2
             epoch_update = epoch_update + update_size
             trainer.G_opt = optim.SGD(trainer.G.parameters(), lr=trainer.G_lr, momentum=0.9, weight_decay=1e-4)
-            trainer.D_opt = optim.SGD(trainer.D.parameters(), lr=trainer.D_lr, momentum=0.9, weight_decay=1e-4)
             trainer.G_scheduler = optim.lr_scheduler.CosineAnnealingLR(trainer.G_opt, iter_num_SGDR)
-            trainer.D_scheduler = optim.lr_scheduler.CosineAnnealingLR(trainer.D_opt, iter_num_SGDR)
         trainer.train()
         torch.save(trainer.G.state_dict(), os.path.join(trainer.model_dir, 'latest_G' + str(epoch) + '.pth'))
         trainer.eval_model()

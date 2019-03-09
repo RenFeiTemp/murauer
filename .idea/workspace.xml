@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf96f3f6-0e10-4375-83f8-7d55701b4689" name="Default" comment="" />
+    <list default="true" id="bf96f3f6-0e10-4375-83f8-7d55701b4689" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/source/my_net/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/my_net/main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/murauer$muti_gan.coverage" NAME="muti_gan Coverage Results" MODIFIED="1550309315340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/my_net" />
-    <SUITE FILE_PATH="coverage/murauer$main.coverage" NAME="main Coverage Results" MODIFIED="1551093441024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/my_net" />
+    <SUITE FILE_PATH="coverage/murauer$main.coverage" NAME="main Coverage Results" MODIFIED="1552123147167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/my_net" />
     <SUITE FILE_PATH="coverage/murauer$main_generate_data_cache.coverage" NAME="main_generate_data_cache Coverage Results" MODIFIED="1549707087757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
     <SUITE FILE_PATH="coverage/murauer$main_run.coverage" NAME="main_run Coverage Results" MODIFIED="1549790750549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
   </component>
@@ -39,67 +41,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hapetrainer_map_preview_adversarial.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/trainer/hapetrainer_map_preview_adversarial.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2240">
-              <caret line="228" column="12" selection-start-line="228" selection-start-column="12" selection-end-line="228" selection-end-column="28" />
-              <folding>
-                <element signature="e#1238#2152#0" />
-                <element signature="e#3060#6889#0" />
-                <element signature="e#6987#7442#0" />
-                <element signature="e#7524#7570#0" />
-                <element signature="e#7645#7700#0" />
-                <element signature="e#23424#26078#0" />
-                <element signature="e#26160#27963#0" />
-                <element signature="e#28118#30335#0" />
-                <element signature="e#30396#30521#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_run.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/main_run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
-              <folding>
-                <element signature="e#2771#3127#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resnet_mur.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/my_net/resnet_mur.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="526" column="54" selection-start-line="526" selection-start-column="54" selection-end-line="526" selection-end-column="54" />
-              <folding>
-                <element signature="e#1503#2329#0" />
-                <element signature="e#2365#3716#0" />
-                <element signature="e#3754#4457#0" />
-                <element signature="e#4526#5917#0" />
-                <element signature="e#5962#8546#0" />
-                <element signature="e#8590#12414#0" />
-                <element signature="e#12450#15647#0" />
-                <element signature="e#15679#17834#0" />
-                <element signature="e#15699#16241#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/my_net/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5800">
-              <caret line="293" selection-start-line="293" selection-end-line="293" />
+            <state relative-caret-position="206">
+              <caret line="206" column="42" selection-start-line="206" selection-start-column="42" selection-end-line="206" selection-end-column="42" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#16163#16808#0" />
-                <element signature="e#17889#18478#0" />
                 <element signature="e#18036#18618#0" />
               </folding>
             </state>
@@ -117,10 +65,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>anno</find>
-      <find>loadSingleSampleNyu</find>
-      <find>rotateImageAndGt</find>
-      <find>HandDetectorICG</find>
       <find>real_synth_sample_list</find>
       <find>numSamples</find>
       <find>get_evaluator</find>
@@ -147,7 +91,14 @@
       <find>scheduler_type</find>
       <find>modi</find>
       <find>train</find>
+      <find>gan_list</find>
+      <find>error_joint_list</find>
+      <find>basic</find>
+      <find>D</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -175,12 +126,13 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="359" />
     <option name="y" value="40" />
     <option name="width" value="862" />
     <option name="height" value="820" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -382,9 +334,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50064266" side_tool="true" weight="0.4200542" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" order="7" weight="0.3292683" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29674795" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2971506" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21465296" />
@@ -523,8 +475,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp12701/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/uvd_basic_Gsgd0.1_stepbatch128/img/669.png" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp13349/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/uvd_basic_Gsgd0.1_stepbatch128/img/636.png" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp21393/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/basic_Gsgd0.1_stepbatch32/results_joint_pos_estimated_xyz.txt" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp39382/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/uvd_basic_Gsgd0.1_stepbatch128/img/0.png" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp29132/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/basic_Gsgd0.1_stepbatch32/results_joint_pos_estimated_uvd.txt" />
@@ -829,14 +779,20 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp35047/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/resnet_mur_Gsgd0.3_stepbatch128/results.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp17590/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/basic_Gsgd0.1_stepbatch128/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1356" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp17910/data/users/pfren/pycharm/murauer/source/my_net/model/nyu/basic_Gsgd0.1_stepbatch128/results.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/my_net/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5800">
-          <caret line="293" selection-start-line="293" selection-end-line="293" />
+        <state relative-caret-position="206">
+          <caret line="206" column="42" selection-start-line="206" selection-start-column="42" selection-end-line="206" selection-end-column="42" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#16163#16808#0" />
-            <element signature="e#17889#18478#0" />
             <element signature="e#18036#18618#0" />
           </folding>
         </state>
